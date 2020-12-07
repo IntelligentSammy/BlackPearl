@@ -89,7 +89,7 @@ async def carbon_api(e):
         await e.client.send_file(
             e.chat_id,
             file,
-            caption="<< `Here's your carbon!` \n **Carbonised Using** [Black Pearl](https://github.com/PEARLGANG/BlackPearl)>>\n**Colour Scheme: **`{}`".format(
+            caption="<< `Here's your carbon!` \n **Carbonised Using** [Black Pearl](https://github.com/IntelligentSammy/BlackPearl)>>\n**Colour Scheme: **`{}`".format(
                 color_name
             ),
             force_document=True,
