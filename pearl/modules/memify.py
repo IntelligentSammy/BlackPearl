@@ -89,7 +89,7 @@ async def _(event):
                 event.chat_id,
                 requires_file_name,
                 supports_streaming=False,
-                caption="@pearlsupport",
+                caption="@BlackPearlSupport",
                 # Courtesy: @A_Dark_Princ3
             )
             await event.delete()
