@@ -43,7 +43,7 @@ async def _(event):
                 thumb=sedlyf,
                 performer=thums,
                 supports_streaming=True) 
-    await myself_pearl.edit("`Song Uploaded. By (C) @pearlsupport`")
+    await myself_pearl.edit("`Song Uploaded. By (C) @BlackPearlSupport`")
     for files in (sedlyf, km):
         if files and os.path.exists(files):
             os.remove(files)
