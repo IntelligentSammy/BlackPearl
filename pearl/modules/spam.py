@@ -191,7 +191,7 @@ CMD_HELP.update({
 \n**Usage:**  Protect your groups from scammers.\
 \nFor on `.set var SPAM_PROTECT True` , for off `.del var SPAM_PROTECT`\
 \n You need to set up api key for that\
-\n More information click [here](https://t.me/pearlsupport)\
+\n More information click [here](https://t.me/Blackpearlsupport)\
 \n\n**All commands support sudo , type .help sudo for more info**\
 "
 })
