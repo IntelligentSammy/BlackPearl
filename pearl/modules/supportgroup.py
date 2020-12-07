@@ -20,7 +20,7 @@ async def _(event):
     await event.edit("For Our Support Group")
     animation_chars = [
         "Click Here",
-        "[Support Group](https://t.me/pearlsupport)",
+        "[Support Group](https://t.me/BlackpearlChat)",
     ]
 
     for i in animation_ttl:
