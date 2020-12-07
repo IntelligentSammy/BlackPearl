@@ -39,15 +39,15 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         if event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
-                text=f"**Showing Stats For {DEFAULTUSER}'s BLACK PEARL** \nNote --> Only Owner Can Check This \n(C) @pearlsupport",
+                text=f"**Showing Stats For {DEFAULTUSER}'s BLACK PEARL** \nNote --> Only Owner Can Check This \n(C) @Blackpearlsupport",
                 buttons=[
                     [custom.Button.inline("Show Stats ", data="terminator")],
                     [
                         Button.url(
                             "Repo 🇮🇳",
-                            "https://github.com/PEARLGANG/BlackPearl")
+                            "https://github.com/IntelligentSammy/BlackPearl")
                     ],
-                    [Button.url("Join Channel ⚓", "t.me/pearlsupport")],
+                    [Button.url("Join Channel ⚓", "t.me/Blackpearlsupport")],
                 ],
             )
         if event.query.user_id == bot.uid and query.startswith("**Hello"):
@@ -56,12 +56,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
                 text=query,
                 buttons=[
                     [
-                        custom.Button.inline("1️⃣ Spamming",data="wannaspam"),
-                        custom.Button.inline("2️⃣ Chatting",data="casualbitching")
+                        custom.Button.inline("❌ Spamming",data="wannaspam"),
+                        custom.Button.inline("📝 Chatting",data="casualbitching")
                     ],
                     [
-                        custom.Button.inline("3️⃣ Doubt",data="askme"),
-                        custom.Button.inline("4️⃣ Others",data="others")
+                        custom.Button.inline("❓ Doubt",data="askme"),
+                        custom.Button.inline("🛑 Others",data="others")
                     ]
                 ]
             )
