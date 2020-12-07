@@ -31,7 +31,7 @@ async def cmd_list(event):
         else:
             help_string = """Black Pearl Features Are Listed Here !\n
 ✪༺ ──•◈•───•◈•──༻✪\n
-For More Help or Support Visit @pearlsupport"""
+For More Help or Support Visit @Blackpearlsupport"""
             results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername, help_string
             )
