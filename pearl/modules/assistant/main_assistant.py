@@ -75,8 +75,8 @@ async def help(event):
                 event.chat_id,
                 message="You Can Deploy black Pearl In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
                 buttons = [
-                [Button.url("Deploy Tutorial 📺", "https://youtu.be/xfHcm_e92eQ")],
-                [Button.url("Need Help ❓", "t.me/pearlsupport")]
+                [Button.url("Deploy Tutorial 📺", "https://t.me/PearlBotHelp)],
+                [Button.url("Need Help ❓", "t.me/Blackpearlsupport")]
                  ]
                 )
 
