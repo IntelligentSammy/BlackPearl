@@ -38,22 +38,16 @@ def get_readable_time(seconds: int) -> str:
 uptime = get_readable_time((time.time() - Lastupdate))
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "➢ **BLACK PEARL IS:** SAILING\n\n"
-pm_caption += "✪༺ ──•◈•───•◈•──༻✪\n"
-pm_caption += "➢ **SYSTEMS STATS**\n"
-pm_caption += "➢ **Telethon Version:** `1.15.0` \n"
-pm_caption += "➢ **Python:** `3.7.4` \n"
-pm_caption += f"➢ **Uptime** : `{uptime}` \n"
-pm_caption += "➢ **Database Status:**  `Functional`\n"
-pm_caption += "➢ **Current Branch** : `master`\n"
-pm_caption += f"➢ **Version** : `1.0`\n"
-pm_caption += f"➢ **My Captian** : {DEFAULTUSER} \n"
-pm_caption += "➢ **Heroku Database** : `AWS - WORKS LIKE A CHARM`\n"
-pm_caption += "➢ **License** : [GNU General Public License v3.0](github.com/IntelligentSammy/BlackPearl/blob/main/LICENSE)\n"
-pm_caption += "➢ **Copyright** : By [Github](GitHub.com/IntelligentSammy)\n"
-pm_caption += "➢ **Check Stats By Doing** `.stat`. \n"
-pm_caption += "✪༺ ──•◈•───•◈•──༻✪\n\n"
-pm_caption += "➢ **[Deploy Black Pearl](https://heroku.com/deploy?template=https://github.com/IntelligentSammy/BlackPearl)** \n"
+pm_caption = "🔸 **MADE IN 🇮🇳, MADE WITH 😻**\n\n"
+pm_caption += "🔹 **Black PearL** : [Repo](https://github.com/IntelligentSammy/Blackpearl)/n"
+pm_caption += "🔸 **Telethon Version:** `1.15.0` \n"
+pm_caption += "🔹 **Python:** `3.7.4` \n"
+pm_caption += f"🔸 **PearL Uptime** : `{uptime}` \n"
+pm_caption += f"🔹 **Fork By:**  {DEFAULTUSER} \n"
+pm_caption += f"🔸 **Plugin Version** : `1.0`\n"
+pm_caption += "🔹 **SupportGroup** : [Join](https://t.me/BlackPearlChat)\n"
+pm_caption += "🔸 ༺ ──•◈•───•◈•──༻\n\n"
+pm_caption += "🔹 **[Deploy✔️](https://heroku.com/deploy?template=https://github.com/IntelligentSammy/BlackPearl)** \n"
 
 
 @pearl.on(pearl_on_cmd(pattern=r"alive"))
