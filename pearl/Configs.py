@@ -141,7 +141,7 @@ if ENV:
         TAG_FEATURE = os.environ.get("TAG_FEATURE", "DISABLE")
         ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
         UPSTREAM_REPO = os.environ.get("UPSTREAM_REPO", "https://github.com/IntelligentSammy/BlackPearl")
-        ALIVE_IMAGE = os.environ.get("ALIVE_IMAGE", "https://telegra.ph/file/d8d7dc283fb294008ddcb.jpg")
+        ALIVE_IMAGE = os.environ.get("ALIVE_IMAGE", "https://telegra.ph/file/0e5c3008afb58ea7faed3.jpg")
         TESSDATA_PREFIX = os.environ.get("TESSDATA_PREFIX", "./.apt/usr/share/tesseract-ocr/4.00/tessdata")
 else:
     class Config(object):
